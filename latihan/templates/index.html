@@ -1,0 +1,454 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ltihan</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <h1 style="text-align: center;">Rekomendasi Ekstrakurikuler</h1>
+
+    <form class="p-3" action="/" method="post">
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">
+                    <h5>Nama</h5>
+                </div>
+            </div>
+            <div class="col">
+    
+                <input class="form-control" type="text" placeholder="Nama" required>
+        
+            </div>
+        </div>
+        <br>
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">                    
+                    <h5>Jenis Kelamin</h5>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="lk" value="Laki-Laki" required>
+                    <label class="form-check-label" for="lk">Laki-Laki</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="pr" value="Perempuan">
+                    <label class="form-check-label" for="pr">Perempuan</label>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">
+                    <h5>Jurusan</h5>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jurusan" id="ipa" value="IPA required">
+                    <label class="form-check-label" for="ipa">IPA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jurusan" id="ips" value="IPS">
+                    <label class="form-check-label" for="ips">IPS</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="jurusan" id="bhs" value="Bahasa">
+                    <label class="form-check-label" for="bhs">Bahasa</label>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">
+                    <h5>Apakah teman berpengaruh dalam kegiatan sekolah?</h5>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="teman" id="teman-ya" value="Ya required">
+                    <label class="form-check-label" for="teman-ya">Ya</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="teman" id="teman-no" value="Tidak">
+                    <label class="form-check-label" for="teman-no">Tidak</label>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">
+                    <h5>Lama kegiatan ekstrakurikuler yang diinginkan</h5>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lama" id="lama1" value="Kurang dari 1 Jam" required> 
+                    <label class="form-check-label" for="lama1">Kurang dari 1 Jam</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lama" id="lama2" value="1 Jam">
+                    <label class="form-check-label" for="lama2">1 Jam</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="lama" id="lama3" value="Lebih dari 1 Jam">
+                    <label class="form-check-label" for="lama3">Lebih dari 1 Jam</label>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        <div class="row container" >
+            <div class="col">
+                <div role="alert">
+                    <h5>Banyak pertemuan ekstrakurikuler yang diinginkan</h5>                    
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="banyak" id="banyak1" value="1 Kali Seminggu" required>
+                    <label class="form-check-label" for="banyak1">1 Kali Seminggu</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="banyak" id="banyak2" value="2 Kali Seminggu">
+                    <label class="form-check-label" for="banyak2">2 Kali Seminggu</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="banyak" id="banyak3" value="3 Kali Seminggu">
+                    <label class="form-check-label" for="banyak3">3 Kali Seminggu</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="banyak" id="banyak4" value="Lebih dari 3 Kali Seminggu">
+                    <label class="form-check-label" for="banyak4">Lebih dari 3 Kali Seminggu</label>
+                </div>
+        
+            </div>
+        </div>
+        <br>
+        
+        <div class="row container" >
+            <h4 class="text-center mt-2">Minat bakat yang kamu miliki :</h4>
+            <br><br>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menggemari kegiatan yang melibatkan tulisan" id="mb-1">
+                    <label class="form-check-label" for="mb-1">
+                        Menggemari kegiatan yang melibatkan tulisan
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar menuangkan ide dalam bentuk tulisan atau puisi" id="mb-2">
+                    <label class="form-check-label" for="mb-2">
+                        Gemar menuangkan ide dalam bentuk tulisan atau puisi
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Senang berinteraksi melalui verbal atau bercerita" id="mb-3">
+                    <label class="form-check-label" for="mb-3">
+                        Senang berinteraksi melalui verbal atau bercerita
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memiliki ketertarikan dalam dunia menulis, khususnya menulis sebuah cerita fiksi" id="mb-4">
+                    <label class="form-check-label" for="mb-4">
+                        Memiliki ketertarikan dalam dunia menulis, khususnya menulis sebuah cerita fiksi
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar berargumen" id="mb-5">
+                    <label class="form-check-label" for="mb-5">
+                        Gemar berargumen
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar ilmu linguistik" id="mb-6">
+                    <label class="form-check-label" for="mb-6">
+                        Gemar ilmu linguistik
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memiliki peliharaan baik berupa hewan ataupun tanaman" id="mb-7">
+                    <label class="form-check-label" for="mb-7">
+                        Memiliki peliharaan baik berupa hewan ataupun tanaman
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mencintai dan gemar mempelajari segala sesuatu yang berhubungan dengan alam" id="mb-8">
+                    <label class="form-check-label" for="mb-8">
+                        Mencintai dan gemar mempelajari segala sesuatu yang berhubungan dengan alam
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memiliki niat untuk berkunjung ke kebun binatang" id="mb-9">
+                    <label class="form-check-label" for="mb-9">
+                        Memiliki niat untuk berkunjung ke kebun binatang
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mencintai kegiatan yang berhubungan dengan pecinta alam" id="mb-10">
+                    <label class="form-check-label" for="mb-10">
+                        Mencintai kegiatan yang berhubungan dengan pecinta alam
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai kegiatan yang menenangkan, misalnya kegiatan memancing" id="mb-11">
+                    <label class="form-check-label" for="mb-11">
+                        Menyukai kegiatan yang menenangkan, misalnya kegiatan memancing
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Tidak mengabaikan kelestarian alam atau lingkungan" id="mb-12">
+                    <label class="form-check-label" for="mb-12">
+                        Tidak mengabaikan kelestarian alam atau lingkungan
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar memikirkan cita-cita yang ingin digapai" id="mb-13">
+                    <label class="form-check-label" for="mb-13">
+                        Gemar memikirkan cita-cita yang ingin digapai
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Cenderung memilih untuk melakukan berbagai hal secara individu" id="mb-14">
+                    <label class="form-check-label" for="mb-14">
+                        Cenderung memilih untuk melakukan berbagai hal secara individu
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Cenderung menyukai bekerja hanya dengan kemampuan sendiri" id="mb-15">
+                    <label class="form-check-label" for="mb-15">
+                        Cenderung menyukai bekerja hanya dengan kemampuan sendiri
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar mendokumentasikan pengalaman dan perasaannya dalam bentuk tulisan" id="mb-16">
+                    <label class="form-check-label" for="mb-16">
+                        Gemar mendokumentasikan pengalaman dan perasaannya dalam bentuk tulisan
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mempertimbangkan baik sisi plus ataupun minus terhadap keputusan yang akan diambil dalam menghadapi sebuah masalah" id="mb-17">
+                    <label class="form-check-label" for="mb-17">
+                        Mempertimbangkan baik sisi plus ataupun minus terhadap keputusan yang akan diambil dalam menghadapi sebuah masalah
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memahami sisi positif maupun negatif yang ada dalam dirinya" id="mb-18">
+                    <label class="form-check-label" for="mb-18">
+                        Memahami sisi positif maupun negatif yang ada dalam dirinya
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukan permainan yang memerlukan pemikiran kritis" id="mb-19">
+                    <label class="form-check-label" for="mb-19">
+                        Menyukan permainan yang memerlukan pemikiran kritis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai science" id="mb-20">
+                    <label class="form-check-label" for="mb-20">
+                        Menyukai science
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mencintai dunia eksakta" id="mb-21">
+                    <label class="form-check-label" for="mb-21">
+                        Mencintai dunia eksakta
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Suka bermain komputer dan menemukan cara kerja komputer" id="mb-22">
+                    <label class="form-check-label" for="mb-22">
+                        Suka bermain komputer dan menemukan cara kerja komputer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Cenderung lebih mudah bekerja dan berpikir mengenai hal-hal yang berhubungan dengan angka" id="mb-23">
+                    <label class="form-check-label" for="mb-23">
+                        Cenderung lebih mudah bekerja dan berpikir mengenai hal-hal yang berhubungan dengan angka
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Suka pelajaran matematika" id="mb-24">
+                    <label class="form-check-label" for="mb-24">
+                        Suka pelajaran matematika
+                    </label>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar berinteraksi dengan sesama" id="mb-25">
+                    <label class="form-check-label" for="mb-25">
+                        Gemar berinteraksi dengan sesama
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Tidak sulit dalam beradaptasi dengan orang baru" id="mb-26">
+                    <label class="form-check-label" for="mb-26">
+                        Tidak sulit dalam beradaptasi dengan orang baru
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Cenderung menyukai untuk bekerja secara berkelompok" id="mb-27">
+                    <label class="form-check-label" for="mb-27">
+                        Cenderung menyukai untuk bekerja secara berkelompok
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Peduli dan ringan tangan kepada orang lain" id="mb-28">
+                    <label class="form-check-label" for="mb-28">
+                        Peduli dan ringan tangan kepada orang lain
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memiliki ide untuk membuat orang lain merasa nyaman untuk bekerja sama" id="mb-29">
+                    <label class="form-check-label" for="mb-29">
+                        Memiliki ide untuk membuat orang lain merasa nyaman untuk bekerja sama
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Seringkali menjadi tempat berbagi cerita bagi rekannya" id="mb-30">
+                    <label class="form-check-label" for="mb-30">
+                        Seringkali menjadi tempat berbagi cerita bagi rekannya
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai dan memiliki kemampuan dalam bermain alat musik" id="mb-31">
+                    <label class="form-check-label" for="mb-31">
+                        Menyukai dan memiliki kemampuan dalam bermain alat musik
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mencintai dunia tarik suara dan musik" id="mb-32">
+                    <label class="form-check-label" for="mb-32">
+                        Mencintai dunia tarik suara dan musik
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mampu dengan mudah meresapi nada atau melodi dari sebuah lagu" id="mb-33">
+                    <label class="form-check-label" for="mb-33">
+                        Mampu dengan mudah meresapi nada atau melodi dari sebuah lagu
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mampu dengan mudah mendefinisikan lagu dan instumen dari berbagai musik dan lagu" id="mb-34">
+                    <label class="form-check-label" for="mb-34">
+                        Mampu dengan mudah mendefinisikan lagu dan instumen dari berbagai musik dan lagu
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar bekerja sambil mendendangkan suatu irama lagu atau musik" id="mb-35">
+                    <label class="form-check-label" for="mb-35">
+                        Gemar bekerja sambil mendendangkan suatu irama lagu atau musik
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar merangkai kata dan menuangkannya kedalam sebuah lagu" id="mb-36">
+                    <label class="form-check-label" for="mb-36">
+                        Gemar merangkai kata dan menuangkannya kedalam sebuah lagu
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar memainkan permainan puzzle atau lego" id="mb-37">
+                    <label class="form-check-label" for="mb-37">
+                        Gemar memainkan permainan puzzle atau lego
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Mencintai kegiatan fotografi" id="mb-38">
+                    <label class="form-check-label" for="mb-38">
+                        Mencintai kegiatan fotografi
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Gemar melukis" id="mb-39">
+                    <label class="form-check-label" for="mb-39">
+                        Gemar melukis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Meniru cara kerja orang lain dalam menghadapi permasalahan" id="mb-40">
+                    <label class="form-check-label" for="mb-40">
+                        Meniru cara kerja orang lain dalam menghadapi permasalahan
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Kemampuan visualisasi dalam bentuk gambar cenderung baik" id="mb-41">
+                    <label class="form-check-label" for="mb-41">
+                        Kemampuan visualisasi dalam bentuk gambar cenderung baik
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Memiliki kemampuan yang baik dalam mapping wilayah" id="mb-42">
+                    <label class="form-check-label" for="mb-42">
+                        Memiliki kemampuan yang baik dalam mapping wilayah
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai kegiatan olah tubuh" id="mb-43">
+                    <label class="form-check-label" for="mb-43">
+                        Menyukai kegiatan olah tubuh
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Cenderung menggerakan anggota tubuh tertentu ketika berpikir" id="mb-44">
+                    <label class="form-check-label" for="mb-44">
+                        Cenderung menggerakan anggota tubuh tertentu ketika berpikir
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Sering merasa jenuh ketika diharuskan berdiam diri secara terus menerus" id="mb-45">
+                    <label class="form-check-label" for="mb-45">
+                        Sering merasa jenuh ketika diharuskan berdiam diri secara terus menerus
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai dunia seni peran atau menari" id="mb-46">
+                    <label class="form-check-label" for="mb-46">
+                        Menyukai dunia seni peran atau menari
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Menyukai kegiatan yang dilakukan outdoor" id="mb-47">
+                    <label class="form-check-label" for="mb-47">
+                        Menyukai kegiatan yang dilakukan outdoor
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="minat" type="checkbox" value="Lebih menyukai praktik daripada teori" id="mb-48">
+                    <label class="form-check-label" for="mb-48">
+                        Lebih menyukai praktik daripada teori
+                    </label>
+                </div>
+        
+            </div>
+        </div>
+        
+        <!-- Form Minat Bakat -->
+        <div class="text-center mt-3 d-grid gap-2 col-7 mx-auto">
+            <input class="btn btn-primary btn-lg" type="submit" value="Hasil">
+        </div>
+    </form>
+
+    {% if recommendation_ekstra %}
+        <!-- <p class="text-center"> Rekomendasi Ekstra untuk {{user_name }} : {{recommendation_ekstra }}</p> -->
+        <h3 class="text-center">Rekomendasi Ekstrakurikuler untuk {{user_name }} : <span class="badge bg-secondary">{{recommendation_ekstra }}</span></h3>
+    {% endif %}
+</body>
+</html>

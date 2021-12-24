@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>783</width>
+    <height>1453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>481</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Aplikasi Sistem Rekomendasi Ekstrakurikuler Siswa SMA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CSD-068 (Capstone Project Dicoding)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Jenis Kelamin :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Jurusan SMA :</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="laki_laki">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>80</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Laki-Laki</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="perempuan">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>80</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perempuan</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ipa">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>110</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IPA</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ips">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>110</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IPS</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="bahasa">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>110</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bahasa</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="lebih1">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>140</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt; 1 Jam</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="kurang1">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>140</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt; 1 Jam</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="pas1">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>140</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 Jam</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Berapa lama anda ingin esktrakurikuler berlangsung? </string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>241</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menggemari kegiatan yang melibatkan tulisan</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>291</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar menuangkan ide dalam bentuk tulisan atau puisi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>291</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Senang berinteraksi melalui verbal atau bercerita</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>431</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memiliki ketertarikan dalam dunia menulis, khususnya menulis sebuah cerita fiksi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memiliki peliharaan baik berupa hewan ataupun tanaman</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>421</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mencintai dan gemar mempelajari segala sesuatu yang berhubungan dengan alam</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>191</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar ilmu linguistik</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar berargumen</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>540</y>
+      <width>401</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cenderung menyukai bekerja hanya dengan kemampuan sendiri</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb16">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>560</y>
+      <width>441</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar mendokumentasikan pengalaman dan perasaannya dalam bentuk tulisan</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>371</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai kegiatan yang menenangkan, misalnya kegiatan memancing</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>291</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar memikirkan cita-cita yang ingin digapai</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>321</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tidak mengabaikan kelestarian alam atau lingkungan</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb14">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>520</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cenderung memilih untuk melakukan berbagai hal secara individu</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>381</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mencintai kegiatan yang berhubungan dengan pecinta alam</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memiliki niat untuk berkunjung ke kebun binatang</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pilih Minat/Bakat yang sesuai dengan Anda :</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb25">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>740</y>
+      <width>191</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar berinteraksi dengan sesama</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb29">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>820</y>
+      <width>411</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memiliki ide untuk membuat orang lain merasa nyaman untuk bekerja sama</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb23">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>700</y>
+      <width>491</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cenderung lebih mudah bekerja dan berpikir mengenai hal-hal yang berhubungan dengan angka</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb19">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>620</y>
+      <width>291</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukan permainan yang memerlukan pemikiran kritis</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb24">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>720</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suka pelajaran matematika</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb27">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>780</y>
+      <width>301</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cenderung menyukai untuk bekerja secara berkelompok</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb26">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>760</y>
+      <width>261</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tidak sulit dalam beradaptasi dengan orang baru</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb31">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>860</y>
+      <width>321</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai dan memiliki kemampuan dalam bermain alat musik</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb32">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>880</y>
+      <width>201</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mencintai dunia tarik suara dan musik</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb28">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>800</y>
+      <width>231</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Peduli dan ringan tangan kepada orang lain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb20">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>640</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai science</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb21">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mencintai dunia eksakta</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb30">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>840</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Seringkali menjadi tempat berbagi cerita bagi rekannya</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb22">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>680</y>
+      <width>321</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suka bermain komputer dan menemukan cara kerja komputer</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb17">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>580</y>
+      <width>611</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mempertimbangkan baik sisi plus ataupun minus terhadap keputusan yang akan diambil dalam menghadapi sebuah masalah</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb18">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>600</y>
+      <width>331</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memahami sisi positif maupun negatif yang ada dalam dirinya</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb34">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>920</y>
+      <width>491</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mampu dengan mudah mendefinisikan lagu dan instumen dari berbagai musik dan lagu</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb33">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>900</y>
+      <width>351</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mampu dengan mudah meresapi nada atau melodi dari sebuah lagu</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb37">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>980</y>
+      <width>261</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar memainkan permainan puzzle atau lego</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb38">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1000</y>
+      <width>301</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mencintai kegiatan fotografi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb35">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>940</y>
+      <width>401</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar bekerja sambil mendendangkan suatu irama lagu atau musik</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb39">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1020</y>
+      <width>231</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar melukis</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb41">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1060</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kemampuan visualisasi dalam bentuk gambar cenderung baik</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb43">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1100</y>
+      <width>201</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai kegiatan olah tubuh</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb42">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1080</y>
+      <width>321</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Memiliki kemampuan yang baik dalam mapping wilayah</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb40">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1040</y>
+      <width>411</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Meniru cara kerja orang lain dalam menghadapi permasalahan</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb36">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>960</y>
+      <width>361</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gemar merangkai kata dan menuangkannya kedalam sebuah lagu</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb47">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1180</y>
+      <width>321</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai kegiatan yang dilakukan outdoor</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb44">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1120</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cenderung menggerakan anggota tubuh tertentu ketika berpikir</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb45">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1140</y>
+      <width>411</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sering merasa jenuh ketika diharuskan berdiam diri secara terus menerus</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb48">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1200</y>
+      <width>201</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lebih menyukai praktik daripada teori</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mb46">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1160</y>
+      <width>341</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menyukai dunia seni peran atau menari</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_rekomendasi">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>1230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Selesai</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="minggu2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>170</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2 Kali</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="minggu3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>170</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3 Kali</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>461</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Berapa lama pertemuan eskul perminggu yang anda inginkan?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="minggu1">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>170</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 Kali</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="minggu4">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>170</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt; 3 Kali/minggu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_hasil">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>1290</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>783</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

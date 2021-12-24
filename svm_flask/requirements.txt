@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 click==8.0.3
 colorama==0.4.4
 Flask==2.0.2
@@ -12,3 +13,19 @@ scikit-learn==1.0.1
 scipy==1.7.3
 threadpoolctl==3.0.0
 Werkzeug==2.0.2
+=======
+click==8.0.3
+colorama==0.4.4
+Flask==2.0.2
+gunicorn==20.1.0
+itsdangerous==2.0.1
+Jinja2==3.0.3
+joblib==1.1.0
+MarkupSafe==2.0.1
+numpy==1.21.4
+pickle-mixin==1.0.2
+scikit-learn==1.0.1
+scipy==1.7.3
+threadpoolctl==3.0.0
+Werkzeug==2.0.2
+>>>>>>> e89e3e87c4df7a2894603cd308356d0f73572562

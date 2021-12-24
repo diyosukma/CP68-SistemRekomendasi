@@ -11,7 +11,7 @@ Metode Content Based Filtering digunakan dalam pembuatan model Sistem Rekomendas
 Support Vector Machine (SVM) untuk memprediksi ekstrakurikuler yang sesuai berdasarkan minat dan bakat yang dimiliki siswa. SVM merupakan model ML multifungsi yang dapat digunakan untuk menyelesaikan permasalahan klasifikasi, regresi, dan pendeteksian outlier.
 
 ## Deployement
-Deploy model Content Based Filtering dan Support Vector Machine dengan memanfaatkan flask dan mengunakan heroku untuk proses hosting web.
+Deploy model Content Based Filtering dan Support Vector Machine dengan memanfaatkan flask dan menggunakan heroku untuk proses hosting web.
 
 ## DEMO
 https://sistemrekomendasi68.herokuapp.com/
